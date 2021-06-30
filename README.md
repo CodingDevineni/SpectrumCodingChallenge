@@ -18,10 +18,17 @@ mvn spring-boot:run
 ```
 ## EndPoints
 http://localhost:8080/api/v1/data
+
 http://localhost:8080/api/v1/data/sortByAsc?sortBy=organization
+
 http://localhost:8080/api/v1/data/sortByAsc?sortBy=releaseCount
+
 http://localhost:8080/api/v1/data/sortByAsc?sortBy=labourHours
+
 http://localhost:8080/api/v1/data/sortByDesc?sortBy=organization
+
 http://localhost:8080/api/v1/data/sortByDesc?sortBy=releaseCount
+
 http://localhost:8080/api/v1/data/sortByDesc?sortBy=labourHours
+
 http://localhost:8080/api/v1/organization/export
