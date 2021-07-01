@@ -5,11 +5,11 @@
 For building and running the application you need:
 
 - [JDK 11.0](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-- [Maven 3](https://maven.apache.org)
+- [Lombok Plugin in IDE]
 
 ## Running the application locally
 
-There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `de.codecentric.springbootsample.Application` class from your IDE.
+Execute/Run the `main` method in the `SpectrumApplication` class in package `com.spectrum` from your IDE.
 
 Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html) like so:
 
@@ -17,18 +17,29 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 mvn spring-boot:run
 ```
 ## EndPoints
+
+Endpoint for retrieving data :
 http://localhost:8080/api/v1/data
 
+
+Endpoint for retrieving data when in ascending order by organization :
 http://localhost:8080/api/v1/data/sortByAsc?sortBy=organization
 
+Endpoint for retrieving data when in ascending order by releaseCount :
 http://localhost:8080/api/v1/data/sortByAsc?sortBy=releaseCount
 
+
+Endpoint for retrieving data when in ascending order by labourHours :
 http://localhost:8080/api/v1/data/sortByAsc?sortBy=labourHours
 
+Endpoint for retrieving data when in descending order by organization :
 http://localhost:8080/api/v1/data/sortByDesc?sortBy=organization
 
+Endpoint for retrieving data when in descending order by releaseCount :
 http://localhost:8080/api/v1/data/sortByDesc?sortBy=releaseCount
 
+Endpoint for retrieving data when in descending order by labourHours :
 http://localhost:8080/api/v1/data/sortByDesc?sortBy=labourHours
 
+Endpoint for exporting data in csv format:
 http://localhost:8080/api/v1/organization/export
