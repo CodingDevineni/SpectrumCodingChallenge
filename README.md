@@ -5,7 +5,9 @@
 For building and running the application you need:
 
 - [JDK 11.0](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-- [Lombok Plugin in IDE]
+- [Lombok Plugin in IDE] 
+
+I've used Intellij IDEA for developing and executing the application.
 
 ## Running the application locally
 
