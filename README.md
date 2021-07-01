@@ -20,17 +20,33 @@ mvn spring-boot:run
 ```
 ## EndPoints
 
-###NOTE : 
+## NOTE : 
 
 Requirement : most_active_months - Array of month (integer) with the highest number of release start dates.
 
 Steps I used to caluclate the most_active_months : It is the array of month (integer) in which there are highest number of release start dates. 
 
-Example : 
+## Example : 
 
-organization	                                                              most_active_months
-Princeton Plasma Physics Laboratory (PPPL)	                                [1,2,5,6,7,8]
-Nevada National Security Site/Mission Support and Test Services LLC (MSTS)	[10]
+<table>
+    <thead>
+      <tr>
+        <th>organization</th>
+        <th>most_active_months to</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Princeton Plasma Physics Laboratory (PPPL)</td>
+            <td>[1,2,5,6,7,8]</td>
+            
+        </tr>
+        <tr>
+            <td>Nevada National Security Site/Mission Support and Test Services LLC (MSTS)</td>
+            <td>[10]</td>
+        </tr>
+    </tbody>
+  </table>
 
 
 Endpoint for retrieving data :
