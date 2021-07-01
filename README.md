@@ -32,20 +32,18 @@ Steps I used to caluclate the most_active_months : It is the array of month (int
     <thead>
       <tr>
         <th>organization</th>
-        <th>most_active_months to</th>
+        <th>most_active_months</th>
       </tr>
     </thead>
     <tbody>
         <tr>
             <td>Princeton Plasma Physics Laboratory (PPPL)</td>
             <td>[1,2,5,6,7,8]</td>
-            
         </tr>
         <tr>
-            <td>Princeton Plasma Physics Laboratory (PPPL)</td>
-            <td>[1,2,5,6,7,8]</td>
-            
-        </tr>
+            <td>Nevada National Security Site/Mission Support and Test Services LLC (MSTS)</td>
+            <td>[10]</td>
+            </tr>
     </tbody>
   </table>
 
