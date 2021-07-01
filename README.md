@@ -48,6 +48,10 @@ Steps I used to caluclate the most_active_months : It is the array of month (int
   </table>
 
 
+
+Once the application is up and tomcat is running in localhost(8080) hit the below URIs:
+
+
 Endpoint for retrieving data :
 http://localhost:8080/api/v1/data
 
